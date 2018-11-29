@@ -1,5 +1,7 @@
-Kill Zone by Nick Lund
-======================
+Kill Zone 
+=========
+
+the Table Top game by Nick Lund
 
 #### Contents ####
 
