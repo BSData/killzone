@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0d6b-68a3-c90f-4514" name="Rebels" revision="1" battleScribeVersion="2.01" authorName="Mr Vitriol" authorContact="mr.vitriol@web.de" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="aa5d-28f1-4d5c-3981" name="Cyborg - Model S" hidden="false" targetId="e2ab-88db-25d4-f886" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2970-f9d8-83d0-d06f" name="Cell" hidden="false" targetId="5e59-75fc-ad88-0b51" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="eac1-7bd4-dc12-50e5" name="Rebel Hero" hidden="false" targetId="bbb1-408a-e11f-7504" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="bbb1-408a-e11f-7504" name="Rebel Hero" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4750-18b4-da4b-967b" name="Hero melee" hidden="false" targetId="e83e-5907-ee59-4e5d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="91fb-ef37-5350-276e" name="Heroic Save" hidden="false" targetId="4682-c120-6f95-fa92" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c243-e9b8-005f-70f4" name="Heroic bonus" hidden="false" targetId="29de-51dc-f862-283b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4173-e12d-4ad7-c264" name="Hit and Run" hidden="false" targetId="f183-3eda-2b2b-6afe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="21e8-c793-e781-ebaf" name="Ranged damage vs. human" hidden="false" targetId="ffbb-259f-b9f3-839d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="42f9-9585-f0b6-041a" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="bbb1-408a-e11f-7504" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b5-6900-34e4-ade0" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c070-6d6c-6abc-a422" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="bbb1-408a-e11f-7504" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b5-6900-34e4-ade0" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="42f9-9585-f0b6-041a" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="bbb1-408a-e11f-7504" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c84-7934-b009-837e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c070-6d6c-6abc-a422" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="bbb1-408a-e11f-7504" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c84-7934-b009-837e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="42f9-9585-f0b6-041a" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="bbb1-408a-e11f-7504" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9dd-479a-c8d2-57e5" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="c070-6d6c-6abc-a422" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="bbb1-408a-e11f-7504" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9dd-479a-c8d2-57e5" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="20ef-0ecf-e043-1e6d" name="New CategoryLink" hidden="false" targetId="c5a0-7f86-5340-0499" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="47bb-0f99-ca8b-faae" name="Armor" hidden="false" targetId="9490-e4be-1d60-0a47" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c4f-d9e2-1d0d-7c03" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4d60-3d20-ab05-c31d" name="Weapon - melee" hidden="false" targetId="9fb9-eee5-9e70-dbe5" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f611-b637-1bba-f55f" name="Weapon - ranged" hidden="false" targetId="13dd-cfdf-d082-66be" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cbd8-5ef0-d56c-29e9" name="Special Weapons" hidden="false" targetId="4a15-bece-ceb8-e824" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="5c85-6969-5b93-e18d" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e59-75fc-ad88-0b51" name="Cell" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d64b-c6a2-477b-667d" name="Squads" hidden="false" targetId="5c99-097e-2eee-659d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7165-177a-a9c0-f006" name="Hit and Run" hidden="false" targetId="f183-3eda-2b2b-6afe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c7ba-56ba-6532-30f4" name="Unit" hidden="false" targetId="ee39-e807-e80b-f42d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="063d-2582-83d3-068f" name="Rebel" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules>
+            <rule id="e563-5947-e310-172a" name="Rebel" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Rebels operate in squads of any size.
+
+The squad will always contain a leader.
+
+Rebels may optionally have headset contact (paid for at the start of the engagement); all rebels in the group must have headsets, if this option is used.
+</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="50c3-4746-2787-2e9f" name="Human melee" hidden="false" targetId="54a3-344f-7e92-5968" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="40d6-7217-ab56-c528" name="Ranged damage vs. human" hidden="false" targetId="ffbb-259f-b9f3-839d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="42f9-9585-f0b6-041a" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="063d-2582-83d3-068f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b5-6900-34e4-ade0" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="c070-6d6c-6abc-a422" value="2">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="063d-2582-83d3-068f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b5-6900-34e4-ade0" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="42f9-9585-f0b6-041a" value="4">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="063d-2582-83d3-068f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c84-7934-b009-837e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="c070-6d6c-6abc-a422" value="4">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="063d-2582-83d3-068f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c84-7934-b009-837e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="42f9-9585-f0b6-041a" value="6">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="063d-2582-83d3-068f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9dd-479a-c8d2-57e5" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="c070-6d6c-6abc-a422" value="6">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="063d-2582-83d3-068f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9dd-479a-c8d2-57e5" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8092-73d4-1b86-da3b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b124-0d52-0a91-7c7f" name="Rebel ranks" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5233-7b43-42fd-6e75" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="d54d-a48d-8902-73de" name="Upgrade - Sub-leader" hidden="false" targetId="b01e-8f63-3f22-1dbc" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Rebel sub-leader">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="5e59-75fc-ad88-0b51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4530-1c8f-8569-e020" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="5103-d48e-ee9b-f077" name="Upgrade - Leader" hidden="false" targetId="e4b4-8170-da72-6c6b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Rebel leader">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="5e59-75fc-ad88-0b51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="29ed-969f-a586-6739" type="min"/>
+                    <constraint field="selections" scope="5e59-75fc-ad88-0b51" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0cde-7c75-b633-c073" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="0792-2cc0-8dd9-3587" name="Weapon - ranged" hidden="false" targetId="13dd-cfdf-d082-66be" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6ccf-e28f-da2a-04b3" name="Armor" hidden="false" targetId="9490-e4be-1d60-0a47" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6a-2a55-f33f-2871" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="964e-2ad0-e22a-0385" name="Weapon - melee" hidden="false" targetId="9fb9-eee5-9e70-dbe5" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6eae-2932-fe9b-9699" name="Special Weapons" hidden="false" targetId="4a15-bece-ceb8-e824" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1375-0eb9-ce81-ac36" name="Headset" hidden="false" targetId="6e63-c897-35f0-220f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Points" costTypeId="5c85-6969-5b93-e18d" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="5c85-6969-5b93-e18d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="4a15-bece-ceb8-e824" name="Special Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0fff-50fa-f946-a081" name="Flame thrower" hidden="false" targetId="890b-8712-e7f6-77b9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef0-833e-fc57-fe36" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5fb8-5953-2e57-3dfb" name="Grenade" hidden="false" targetId="cee2-32cd-763d-8e56" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f50-ce88-b360-f614" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7c73-2e77-50e1-e7ec" name="Light missile launcher" hidden="false" targetId="3b17-86df-bd16-10db" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae78-6918-ed72-ed01" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5ffa-78a2-dc72-d94d" name="Missile" hidden="false" targetId="0851-08a0-0706-c2e2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f7b-c753-f7cb-a65c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4f26-61f9-6c72-bd14" name="Smoke grenade" hidden="false" targetId="b1bc-a5ec-0e7f-13b7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="f183-3eda-2b2b-6afe" name="Hit and Run" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Rebels have sole access to the order &apos;Hit and Run&apos;, which operates as follows:
+ 
+Can move up to 10&quot;.
+ 
+Can take 1 shot.
+ 
+No figure in the group may be suppressed at the time the order is given.
+ 
+A rebel leader must be in the squad to issue this order.
+ 
+All figures in the group must be in headset contact.
+
+</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
