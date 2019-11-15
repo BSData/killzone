@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2409-8f27-4979-8239" name="Kill Zone" revision="2" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2409-8f27-4979-8239" name="Kill Zone" revision="1" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="2409-8f27-pubN67821" name="Kill Zone Playtest Module 1"/>
   </publications>
@@ -133,7 +133,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="dd1c-ccd3-2301-956d" name="Light" hidden="false" targetId="6d44-42d4-d364-1349" type="profile"/>
+        <infoLink id="9cd0-6647-901a-ee56" name="Light" hidden="false" targetId="6d44-42d4-d364-1349" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="Points" typeId="5c85-6969-5b93-e18d" value="12.0"/>
@@ -760,11 +760,11 @@ Hand to hand combat can take place in smoke.</description>
         <rule id="afa6-61e1-183b-921f" name="Min gun" hidden="false">
           <description>Mini guns can only be used when the firer has &apos;shoot&apos; orders.
 
-Min guns can be fired in long and short bursts. If the shooter fires a short burst then s*he can fire four rapid shots. But if the shooter fires a long burst then he may fire eight rapid shots. 
+Min guns can be fired in long and short bursts. If the shooter fires a short burst,  s*he can fire four rapid shots. But if the shooter fires a long burst then s*he may fire eight rapid shots. 
 
 A min gun may only be used to fire a long burst if the shooter has not moved this turn. 
 
-A short burst uses one ammunition counter and a long burst uses two ammunition counters
+A short burst uses one ammunition counter and a long burst uses two ammunition counters.
 
 A mini gun starts the game with a total of 6 ammunition counters.</description>
         </rule>
@@ -1087,14 +1087,13 @@ In hand to hand combat a loosing hero may substract 2 from the Kill Score before
     <rule id="dea8-5779-70c1-bd1c" name="Night sight" hidden="false">
       <description>Using a &apos;night sight&apos; removes the restrictions on maximum range and +1 close range bonus during darkness.</description>
     </rule>
-    <rule id="7534-9126-6c9e-3c86" name="Gangs" hidden="false">
-      <description>A gang must always start the game with a gang leader.
-A gang may use drugs.</description>
+    <rule id="7534-9126-6c9e-3c86" name="Gang" hidden="false">
+      <description>A gang must always start the game with a gang leader.</description>
     </rule>
     <rule id="5c99-097e-2eee-659d" name="Squads" hidden="false">
       <description>A squad must always start the game with a squad leader.
 A squad must always start the game with a sub-leader.
-A squad may be in radio contact.
+
 </description>
     </rule>
     <rule id="b87c-2471-ae52-cd4d" name="Heroes are scarce" hidden="false">
@@ -1146,17 +1145,17 @@ Grenades are bought per piece and represented by target counters. Keep the targe
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="b1e2-4827-4fa2-31cc" name="Medium" hidden="false" typeId="a6bc-703b-2cb3-74a4" typeName="Weapon - hand to hand">
+    <profile id="b1e2-4827-4fa2-31cc" name="Medium hand to hand weapon" hidden="false" typeId="a6bc-703b-2cb3-74a4" typeName="Weapon - hand to hand">
       <characteristics>
         <characteristic name="Kill Score Bonus" typeId="812c-9228-6166-16d5">+2</characteristic>
       </characteristics>
     </profile>
-    <profile id="93ea-adb6-9aeb-9e9b" name="Heavy" hidden="false" typeId="a6bc-703b-2cb3-74a4" typeName="Weapon - hand to hand">
+    <profile id="93ea-adb6-9aeb-9e9b" name="Heavy hand to hand weapon" hidden="false" typeId="a6bc-703b-2cb3-74a4" typeName="Weapon - hand to hand">
       <characteristics>
         <characteristic name="Kill Score Bonus" typeId="812c-9228-6166-16d5">+3</characteristic>
       </characteristics>
     </profile>
-    <profile id="6d44-42d4-d364-1349" name="Light" hidden="false" typeId="a6bc-703b-2cb3-74a4" typeName="Weapon - hand to hand">
+    <profile id="6d44-42d4-d364-1349" name="Light hand to hand weapon" hidden="false" typeId="a6bc-703b-2cb3-74a4" typeName="Weapon - hand to hand">
       <characteristics>
         <characteristic name="Kill Score Bonus" typeId="812c-9228-6166-16d5">+1</characteristic>
       </characteristics>
