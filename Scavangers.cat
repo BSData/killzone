@@ -1,457 +1,214 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="faa2-9fc7-5be5-112d" name="Scavangers" revision="1" battleScribeVersion="2.01" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <profiles/>
-  <rules/>
-  <infoLinks/>
-  <costTypes/>
-  <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries/>
+<catalogue id="faa2-9fc7-5be5-112d" name="Scavangers" revision="2" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" library="false" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="8bab-a296-00ca-8dcb" name="Scavanger Hero" hidden="false" targetId="f034-7204-1bef-0b48" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="ed8e-030a-1c75-b47e" name="Cyborg - Model S" hidden="false" targetId="e2ab-88db-25d4-f886" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="4dc2-92b9-2a12-325e" name="Gang" hidden="false" targetId="416f-b5b7-1dfc-180b" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
+    <entryLink id="8bab-a296-00ca-8dcb" name="Scavanger Hero" hidden="false" collective="false" import="true" targetId="f034-7204-1bef-0b48" type="selectionEntry"/>
+    <entryLink id="ed8e-030a-1c75-b47e" name="Cyborg - Model S" hidden="false" collective="false" import="true" targetId="e2ab-88db-25d4-f886" type="selectionEntry"/>
+    <entryLink id="4dc2-92b9-2a12-325e" name="Gang" hidden="false" collective="false" import="true" targetId="416f-b5b7-1dfc-180b" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="416f-b5b7-1dfc-180b" name="Gang" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
+    <selectionEntry id="416f-b5b7-1dfc-180b" name="Gang" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="72ba-03a8-b58c-0ca5" name="Gang" hidden="false" targetId="7534-9126-6c9e-3c86" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="72ba-03a8-b58c-0ca5" name="Gang" hidden="false" targetId="7534-9126-6c9e-3c86" type="rule"/>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
       <categoryLinks>
-        <categoryLink id="5d6f-e1d2-0995-12a3" name="Unit" hidden="false" targetId="ee39-e807-e80b-f42d" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="5d6f-e1d2-0995-12a3" name="Unit" hidden="false" targetId="ee39-e807-e80b-f42d" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2c9e-497b-af6f-eec7" name="Fighter" hidden="false" collective="false" type="unit">
-          <profiles/>
+        <selectionEntry id="2c9e-497b-af6f-eec7" name="Fighter" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fc8-8038-5f39-6d36" type="min"/>
+          </constraints>
           <rules>
             <rule id="dcc9-c3ef-2f99-be41" name="Scavangers" hidden="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
               <description>Scavengers operate in gangs of any size.
 
 The gang must always have a gang leader.</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="bebb-b9a4-99d8-8848" name="Human melee" hidden="false" targetId="54a3-344f-7e92-5968" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
+            <infoLink id="bebb-b9a4-99d8-8848" name="Human melee" hidden="false" targetId="54a3-344f-7e92-5968" type="profile"/>
             <infoLink id="e940-429e-65ec-220a" name="Ranged damage vs. human" hidden="false" targetId="ffbb-259f-b9f3-839d" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
               <modifiers>
                 <modifier type="increment" field="42f9-9585-f0b6-041a" value="2">
-                  <repeats/>
                   <conditions>
                     <condition field="selections" scope="2c9e-497b-af6f-eec7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b5-6900-34e4-ade0" type="equalTo"/>
                   </conditions>
-                  <conditionGroups/>
                 </modifier>
                 <modifier type="increment" field="42f9-9585-f0b6-041a" value="4">
-                  <repeats/>
                   <conditions>
                     <condition field="selections" scope="2c9e-497b-af6f-eec7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c84-7934-b009-837e" type="equalTo"/>
                   </conditions>
-                  <conditionGroups/>
                 </modifier>
                 <modifier type="increment" field="42f9-9585-f0b6-041a" value="6">
-                  <repeats/>
                   <conditions>
                     <condition field="selections" scope="2c9e-497b-af6f-eec7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9dd-479a-c8d2-57e5" type="equalTo"/>
                   </conditions>
-                  <conditionGroups/>
                 </modifier>
                 <modifier type="increment" field="c070-6d6c-6abc-a422" value="2">
-                  <repeats/>
                   <conditions>
                     <condition field="selections" scope="2c9e-497b-af6f-eec7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b5-6900-34e4-ade0" type="equalTo"/>
                   </conditions>
-                  <conditionGroups/>
                 </modifier>
                 <modifier type="increment" field="c070-6d6c-6abc-a422" value="4">
-                  <repeats/>
                   <conditions>
                     <condition field="selections" scope="2c9e-497b-af6f-eec7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c84-7934-b009-837e" type="equalTo"/>
                   </conditions>
-                  <conditionGroups/>
                 </modifier>
                 <modifier type="increment" field="c070-6d6c-6abc-a422" value="6">
-                  <repeats/>
                   <conditions>
                     <condition field="selections" scope="2c9e-497b-af6f-eec7" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9dd-479a-c8d2-57e5" type="equalTo"/>
                   </conditions>
-                  <conditionGroups/>
                 </modifier>
               </modifiers>
             </infoLink>
           </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fc8-8038-5f39-6d36" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="ce8e-f8fe-63af-6ab3" name="Scavanger ranks" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
+            <selectionEntryGroup id="ce8e-f8fe-63af-6ab3" name="Scavanger ranks" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7280-56fe-1aea-8e66" type="max"/>
               </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="52ee-e433-ca8e-a6e8" name="Upgrade - Sub-leader" hidden="false" targetId="b01e-8f63-3f22-1dbc" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
+                <entryLink id="52ee-e433-ca8e-a6e8" name="Upgrade - Sub-leader" hidden="false" collective="false" import="true" targetId="b01e-8f63-3f22-1dbc" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Right hand">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
+                    <modifier type="set" field="name" value="Right hand"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="416f-b5b7-1dfc-180b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="71da-3325-f27e-9883" type="max"/>
                   </constraints>
-                  <categoryLinks/>
                 </entryLink>
-                <entryLink id="e05e-321e-aae6-3859" name="Upgrade - Leader" hidden="false" targetId="e4b4-8170-da72-6c6b" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
+                <entryLink id="e05e-321e-aae6-3859" name="Upgrade - Leader" hidden="false" collective="false" import="true" targetId="e4b4-8170-da72-6c6b" type="selectionEntry">
                   <modifiers>
-                    <modifier type="set" field="name" value="Boss">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
+                    <modifier type="set" field="name" value="Boss"/>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="416f-b5b7-1dfc-180b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9ae7-f66c-d3c2-7745" type="min"/>
                     <constraint field="selections" scope="416f-b5b7-1dfc-180b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c31-f52a-064f-3f2c" type="max"/>
                   </constraints>
-                  <categoryLinks/>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="572a-2507-b8d4-6e64" name="Weapon - ranged" hidden="false" targetId="13dd-cfdf-d082-66be" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="c6bd-bfdd-8691-a340" name="Armor" hidden="false" targetId="9490-e4be-1d60-0a47" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
+            <entryLink id="572a-2507-b8d4-6e64" name="Weapon - ranged" hidden="false" collective="false" import="true" targetId="13dd-cfdf-d082-66be" type="selectionEntryGroup"/>
+            <entryLink id="c6bd-bfdd-8691-a340" name="Armor" hidden="false" collective="false" import="true" targetId="9490-e4be-1d60-0a47" type="selectionEntryGroup">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f35-f5ee-52c4-73c4" type="max"/>
               </constraints>
-              <categoryLinks/>
             </entryLink>
-            <entryLink id="0933-5b6e-8aee-0a04" name="Weapon - melee" hidden="false" targetId="9fb9-eee5-9e70-dbe5" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="0d48-f7f6-1b83-6889" name="Special Weapons" hidden="false" targetId="dc28-b819-015d-715e" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="18fe-068e-b52f-b5c5" name="Drugs" hidden="false" targetId="69e7-583a-226b-cb8b" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
+            <entryLink id="0933-5b6e-8aee-0a04" name="Weapon - melee" hidden="false" collective="false" import="true" targetId="9fb9-eee5-9e70-dbe5" type="selectionEntryGroup"/>
+            <entryLink id="0d48-f7f6-1b83-6889" name="Special Weapons" hidden="false" collective="false" import="true" targetId="dc28-b819-015d-715e" type="selectionEntryGroup"/>
+            <entryLink id="18fe-068e-b52f-b5c5" name="Drugs" hidden="false" collective="false" import="true" targetId="69e7-583a-226b-cb8b" type="selectionEntryGroup">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b16-5a6c-3bb6-6b96" type="max"/>
               </constraints>
-              <categoryLinks/>
             </entryLink>
+            <entryLink id="f8b8-f4cd-293d-84e3" name="5 Gear" hidden="false" collective="false" import="true" targetId="01bc-b373-fa2f-8a24" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="Points" costTypeId="5c85-6969-5b93-e18d" value="7.0"/>
+            <cost name="Points" typeId="5c85-6969-5b93-e18d" value="7.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="5c85-6969-5b93-e18d" value="0.0"/>
+        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f034-7204-1bef-0b48" name="Scavanger Hero" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
+    <selectionEntry id="f034-7204-1bef-0b48" name="Scavanger Hero" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="8dee-b1fb-2c6c-9f9e" name="Hero melee" hidden="false" targetId="e83e-5907-ee59-4e5d" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d3a2-ca0d-d33f-b82a" name="Heroic Save" hidden="false" targetId="4682-c120-6f95-fa92" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2584-38fe-d533-6a31" name="Heroic bonus" hidden="false" targetId="29de-51dc-f862-283b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="b3b3-d776-2e05-c45e" name="Scavanger Adaptability" hidden="false" targetId="c852-0c84-df8f-801d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
+        <infoLink id="8dee-b1fb-2c6c-9f9e" name="Hero melee" hidden="false" targetId="e83e-5907-ee59-4e5d" type="profile"/>
+        <infoLink id="d3a2-ca0d-d33f-b82a" name="Heroic Save" hidden="false" targetId="4682-c120-6f95-fa92" type="rule"/>
+        <infoLink id="2584-38fe-d533-6a31" name="Heroic bonus" hidden="false" targetId="29de-51dc-f862-283b" type="rule"/>
+        <infoLink id="b3b3-d776-2e05-c45e" name="Scavanger Adaptability" hidden="false" targetId="c852-0c84-df8f-801d" type="rule"/>
         <infoLink id="6b56-fb61-6f6d-d42e" name="Ranged damage vs. human" hidden="false" targetId="ffbb-259f-b9f3-839d" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
           <modifiers>
             <modifier type="increment" field="42f9-9585-f0b6-041a" value="2">
-              <repeats/>
               <conditions>
                 <condition field="selections" scope="f034-7204-1bef-0b48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b5-6900-34e4-ade0" type="equalTo"/>
               </conditions>
-              <conditionGroups/>
             </modifier>
             <modifier type="increment" field="42f9-9585-f0b6-041a" value="4">
-              <repeats/>
               <conditions>
                 <condition field="selections" scope="f034-7204-1bef-0b48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c84-7934-b009-837e" type="equalTo"/>
               </conditions>
-              <conditionGroups/>
             </modifier>
             <modifier type="increment" field="42f9-9585-f0b6-041a" value="6">
-              <repeats/>
               <conditions>
                 <condition field="selections" scope="f034-7204-1bef-0b48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9dd-479a-c8d2-57e5" type="equalTo"/>
               </conditions>
-              <conditionGroups/>
             </modifier>
             <modifier type="increment" field="c070-6d6c-6abc-a422" value="2">
-              <repeats/>
               <conditions>
                 <condition field="selections" scope="f034-7204-1bef-0b48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="02b5-6900-34e4-ade0" type="equalTo"/>
               </conditions>
-              <conditionGroups/>
             </modifier>
             <modifier type="increment" field="c070-6d6c-6abc-a422" value="4">
-              <repeats/>
               <conditions>
                 <condition field="selections" scope="f034-7204-1bef-0b48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6c84-7934-b009-837e" type="equalTo"/>
               </conditions>
-              <conditionGroups/>
             </modifier>
             <modifier type="increment" field="c070-6d6c-6abc-a422" value="6">
-              <repeats/>
               <conditions>
                 <condition field="selections" scope="f034-7204-1bef-0b48" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9dd-479a-c8d2-57e5" type="equalTo"/>
               </conditions>
-              <conditionGroups/>
             </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers/>
-      <constraints/>
       <categoryLinks>
-        <categoryLink id="6c89-f5f1-0034-6880" name="New CategoryLink" hidden="false" targetId="c5a0-7f86-5340-0499" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
+        <categoryLink id="6c89-f5f1-0034-6880" name="New CategoryLink" hidden="false" targetId="c5a0-7f86-5340-0499" primary="true"/>
       </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5d53-cb0e-092f-08cf" name="Armor" hidden="false" targetId="9490-e4be-1d60-0a47" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="5d53-cb0e-092f-08cf" name="Armor" hidden="false" collective="false" import="true" targetId="9490-e4be-1d60-0a47" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32f-d6ca-59f5-ad6f" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="5416-9f47-2b7e-c7af" name="Weapon - melee" hidden="false" targetId="9fb9-eee5-9e70-dbe5" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="37ef-4c12-5593-efc7" name="Weapon - ranged" hidden="false" targetId="13dd-cfdf-d082-66be" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="97a7-4ded-68e2-559c" name="Special Weapons" hidden="false" targetId="dc28-b819-015d-715e" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="49b2-f8bf-a689-2772" name="Drugs" hidden="false" targetId="69e7-583a-226b-cb8b" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="5416-9f47-2b7e-c7af" name="Weapon - melee" hidden="false" collective="false" import="true" targetId="9fb9-eee5-9e70-dbe5" type="selectionEntryGroup"/>
+        <entryLink id="37ef-4c12-5593-efc7" name="Weapon - ranged" hidden="false" collective="false" import="true" targetId="13dd-cfdf-d082-66be" type="selectionEntryGroup"/>
+        <entryLink id="97a7-4ded-68e2-559c" name="Special Weapons" hidden="false" collective="false" import="true" targetId="dc28-b819-015d-715e" type="selectionEntryGroup"/>
+        <entryLink id="49b2-f8bf-a689-2772" name="Drugs" hidden="false" collective="false" import="true" targetId="69e7-583a-226b-cb8b" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07aa-8e19-4ac6-49d8" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
+        <entryLink id="6ade-7aa1-4ac4-8ddf" name="5 Gear" hidden="false" collective="false" import="true" targetId="01bc-b373-fa2f-8a24" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="5c85-6969-5b93-e18d" value="100.0"/>
+        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="100.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="dc28-b819-015d-715e" name="Special Weapons" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
+    <selectionEntryGroup id="dc28-b819-015d-715e" name="Special Weapons" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="c220-e8f0-c0d2-7765" name="Flame thrower" hidden="false" targetId="890b-8712-e7f6-77b9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="c220-e8f0-c0d2-7765" name="Flame thrower" hidden="false" collective="false" import="true" targetId="890b-8712-e7f6-77b9" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd9-9b05-73cc-e08a" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="309d-1d3d-2e67-2406" name="Grenade" hidden="false" targetId="cee2-32cd-763d-8e56" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="309d-1d3d-2e67-2406" name="Grenade" hidden="false" collective="false" import="true" targetId="cee2-32cd-763d-8e56" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d55-be28-ecfc-aa31" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="28e6-d781-09b2-2fd6" name="Light missile launcher" hidden="false" targetId="3b17-86df-bd16-10db" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="28e6-d781-09b2-2fd6" name="Light missile launcher" hidden="false" collective="false" import="true" targetId="3b17-86df-bd16-10db" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be4d-b270-acb3-8518" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="51f0-facd-a233-5571" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="fce6-e0dc-3e18-a338" name="Missile" hidden="false" targetId="0851-08a0-0706-c2e2" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
+        <entryLink id="fce6-e0dc-3e18-a338" name="Missile" hidden="false" collective="false" import="true" targetId="0851-08a0-0706-c2e2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c66-8dc2-b56b-02c6" type="max"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d44b-b6ee-afb1-6139" type="max"/>
           </constraints>
-          <categoryLinks/>
         </entryLink>
-        <entryLink id="8f16-f41d-1fcf-71e6" name="Smoke grenade" hidden="false" targetId="b1bc-a5ec-0e7f-13b7" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
+        <entryLink id="8f16-f41d-1fcf-71e6" name="Smoke grenade" hidden="false" collective="false" import="true" targetId="b1bc-a5ec-0e7f-13b7" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="c852-0c84-df8f-801d" name="Scavanger Adaptability" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
       <description>In darkness there is no movement penalty for scavengers.
  
 The movement penalty for difficult terrain/buildings is -2&quot;, instead of -4&quot;.
@@ -459,5 +216,4 @@ The movement penalty for difficult terrain/buildings is -2&quot;, instead of -4&
 </description>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
 </catalogue>
