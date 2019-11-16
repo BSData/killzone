@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f9d3-2825-feca-80c0" name="StreetCops" revision="2" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" library="false" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f9d3-2825-feca-80c0" name="StreetCops" revision="3" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" library="false" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="cae7-ad64-26cf-90fd" name="Squad" hidden="false" collective="false" import="true" targetId="c01a-082e-1dbc-0df9" type="selectionEntry"/>
     <entryLink id="e28d-e60c-ce07-f75e" name="StreetCop Hero" hidden="false" collective="false" import="true" targetId="aa37-fc17-72b2-cd3d" type="selectionEntry"/>
@@ -170,7 +170,7 @@ Law Enforcers may optionally have headset contact (paid for at the start of the 
         <entryLink id="767b-33b7-b51e-c4a1" name="5 Gear" hidden="false" collective="false" import="true" targetId="01bc-b373-fa2f-8a24" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="100.0"/>
+        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="107.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

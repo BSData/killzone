@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0ce7-0b07-08cf-08c0" name="Troopers" revision="2" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" library="false" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0ce7-0b07-08cf-08c0" name="Troopers" revision="3" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" library="false" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="8ba6-4de0-8b2b-c9cc" name="Cyborg - Model S" hidden="false" collective="false" import="true" targetId="e2ab-88db-25d4-f886" type="selectionEntry"/>
     <entryLink id="77cd-5c35-b6c3-929b" name="Unit" hidden="false" collective="false" import="true" targetId="6b1b-a476-ebef-79e8" type="selectionEntry"/>
@@ -109,6 +109,7 @@ Troopers always wear armour.
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d283-8a90-f455-93b5" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="d454-73e3-fc8a-6711" name="5 Gear" hidden="false" collective="false" import="true" targetId="01bc-b373-fa2f-8a24" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Points" typeId="5c85-6969-5b93-e18d" value="7.0"/>
@@ -172,9 +173,10 @@ Troopers always wear armour.
         <entryLink id="665c-c99e-b4f5-30ab" name="Weapon - melee" hidden="false" collective="false" import="true" targetId="9fb9-eee5-9e70-dbe5" type="selectionEntryGroup"/>
         <entryLink id="2507-6f0e-cfc6-0625" name="Weapon - ranged" hidden="false" collective="false" import="true" targetId="13dd-cfdf-d082-66be" type="selectionEntryGroup"/>
         <entryLink id="bebd-bd42-d228-6ee6" name="Special Weapons" hidden="false" collective="false" import="true" targetId="5ff9-c22a-f4e9-8c80" type="selectionEntryGroup"/>
+        <entryLink id="7a54-30fd-5eb9-dee4" name="5 Gear" hidden="false" collective="false" import="true" targetId="01bc-b373-fa2f-8a24" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="100.0"/>
+        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="107.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eefb-a019-5b61-4dc7" name="Power armor unit" hidden="false" collective="false" import="true" type="upgrade">

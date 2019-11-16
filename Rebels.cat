@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0d6b-68a3-c90f-4514" name="Rebels" revision="2" battleScribeVersion="2.03" authorName="Mr Vitriol" authorContact="mr.vitriol@web.de" library="false" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0d6b-68a3-c90f-4514" name="Rebels" revision="3" battleScribeVersion="2.03" authorName="Mr Vitriol" authorContact="mr.vitriol@web.de" library="false" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="aa5d-28f1-4d5c-3981" name="Cyborg - Model S" hidden="false" collective="false" import="true" targetId="e2ab-88db-25d4-f886" type="selectionEntry"/>
     <entryLink id="2970-f9d8-83d0-d06f" name="Cell" hidden="false" collective="false" import="true" targetId="5e59-75fc-ad88-0b51" type="selectionEntry"/>
@@ -62,7 +62,7 @@
         <entryLink id="87a2-7c42-0bf6-9ac3" name="5 Gear" hidden="false" collective="false" import="true" targetId="01bc-b373-fa2f-8a24" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="100.0"/>
+        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="107.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e59-75fc-ad88-0b51" name="Cell" hidden="false" collective="false" import="true" type="unit">
