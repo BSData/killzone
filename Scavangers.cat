@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="faa2-9fc7-5be5-112d" name="Scavangers" revision="2" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" library="false" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="faa2-9fc7-5be5-112d" name="Scavangers" revision="3" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" library="false" gameSystemId="2409-8f27-4979-8239" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="8bab-a296-00ca-8dcb" name="Scavanger Hero" hidden="false" collective="false" import="true" targetId="f034-7204-1bef-0b48" type="selectionEntry"/>
     <entryLink id="ed8e-030a-1c75-b47e" name="Cyborg - Model S" hidden="false" collective="false" import="true" targetId="e2ab-88db-25d4-f886" type="selectionEntry"/>
@@ -174,7 +174,7 @@ The gang must always have a gang leader.</description>
         <entryLink id="6ade-7aa1-4ac4-8ddf" name="5 Gear" hidden="false" collective="false" import="true" targetId="01bc-b373-fa2f-8a24" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="100.0"/>
+        <cost name="Points" typeId="5c85-6969-5b93-e18d" value="107.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
