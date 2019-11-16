@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2409-8f27-4979-8239" name="Kill Zone" revision="1" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2409-8f27-4979-8239" name="Kill Zone" revision="2" battleScribeVersion="2.03" authorName="Mr. Vitriol" authorContact="mr.vitriol@web.de" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="2409-8f27-pubN67821" name="Kill Zone Playtest Module 1"/>
   </publications>
